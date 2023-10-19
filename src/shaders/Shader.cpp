@@ -26,7 +26,6 @@ void Shader::use()
 void Shader::initFromFiles(const char **vertPaths, const int vertCount, std::vector<std::string> vertDefine,
                            const char **fragPaths, const int fragCount, std::vector<std::string> fragDefine)
 {
-  std::cout << relpath(fragPaths[0]) << '\n';
   std::vector<const char *> fragSources, vertSources = Shader::loadShaderFromFiles(vertPaths, vertCount);
   try
   {

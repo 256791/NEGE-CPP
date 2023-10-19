@@ -1,0 +1,28 @@
+H3
+MODEL teselation.obj
+ENTITY teselation
+
+
+MODEL waypoint.obj
+ENTITY waypoint_s
+T 0.0 0.0 -0.4
+S 0.25 0.25 0.25
+R 0.0 3.1415 0.0
+
+ENTITY waypoint_n
+T -0.4 0.0 0.0
+S 0.25 0.25 0.25
+R 0.0 -1.5707 0.0
+
+MODEL fir.obj
+
+ENTITY fir
+S 0.5 0.5 0.5
+T -0.4 0.0 -0.42
+ENTITY fir
+S 0.5 0.5 0.5
+T 0.3 0.0 -0.47
+
+MODEL lamp.obj
+ENTITY lamp
+T 0.3 0.0 0.3
